@@ -1,0 +1,111 @@
+<!--  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Miro2</title>
+</head>
+<body>
+    <form action="/test">
+        <input type="hidden" name="hid" />
+        <div>
+            <label for="email">введите email</label>
+            <input type="text" placeholder="Email пользователя" id="email" name="email">
+        </div>
+        <label for="password">введите пароль</label>
+        <input type="password" placeholder="пароль пользователя" id="password" name="password">
+        <label for="date">введите дату</label>
+        <input type="date" placeholder="дата пользователя" id="date" name="date">
+        <label>
+            Число
+            <input type="number" placeholder="Число" />
+        </label>
+        <button>кнопка</button>
+        <button type="reset">сброс</button>
+    </form>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    <form action="https://www.youtube.com/results" method="get">
+    <div>
+        <label for="query">Введите запрос</label>
+        <input
+            type="text"
+            placeholder="Запрос..."
+            id="query"
+            name="search_query"
+            required 
+            minlength="3"
+            maxlength="5 "
+        />
+    </div>
+    <button>Искать на YouTube</button>
+    <div>
+        <label for="agree">Согласен с обработкой данных</label>
+        <input type="checkbox" name="agree" id="agree">
+    </div>
+    <div>
+        <label for="all">Поиск повсюду</label>
+        <input 
+            type="radio"
+            name="1"
+            id="all"
+            value="all"
+        >
+    </div>
+    <div>
+        <label for="youtube">Поиск на YouTube</label>
+        <input 
+            type="radio"
+            name="1"
+            id="youtube"
+            value="youtube"
+        >
+    </div>
+    <div>
+        <label for="topic">Тематика</label>
+        <select name="topic" id="topic">
+            <option value="1">Все</option>
+            <optgroup label="Популярные">
+                <option value="2">Животные</option>
+                <option value="3">Разработка</option>
+            </optgroup>
+        </select>
+    </div>
+    <div>
+        <label for="volume">Громкость</label>
+        <input 
+            type="range" 
+            name="volume" 
+            id="volume" 
+            min="0" 
+            max="10" 
+            step="2"
+        />
+    </div>
+    <div>
+        <label for="num">Оценка </label>
+        <input 
+            type="number"
+            name="num"
+            id="num"
+            min="0"
+            max="10"
+            step="2"
+        />
+    </div>
+    <div>
+        <label for="text">Комментарий</label>
+        <textarea name="text" id="text" rows="5" cols="50"></textarea>
+    </div>
+    <button>Искать на YouTube</button>
+</body>
+</html>
