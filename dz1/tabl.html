@@ -3,42 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tabl</title>
+    <title>Document tabl</title>
 </head>
 <body>
     <table>
-        <caption>
-            структура таблицы
-        </caption>
+        <caption>Прайс-лист товаров</caption>
         <thead>
             <tr>
-                <th rowspan="2">статья</th>
-                <th colspan="2">сумма</th>
-            </tr>
-            <tr>
-                <th>руб</th>
-                <th>$</th>
+                <th scope="col">Товар</th>
+                <th scope="col">Цена</th>
+                <th scope="col">Валюта</th>
             </tr>
         </thead>
         <tbody>
             <tr>
-                <td>зарплата</td>
-                <td>100 000</td>
-                <td>2 000</td>
+                <td>Хлеб</td>
+                <td>50</td>
+                <td>руб</td>
             </tr>
             <tr>
-                <td>сервисы</td>
-                <td>30 000</td>
-                <td>700</td>
+                <td>Молоко</td>
+                <td>80</td>
+                <td>руб</td>
+            </tr>
+            <tr>
+                <td>Яйца</td>
+                <td>120</td>
+                <td>руб</td>
             </tr>
         </tbody>
-        <tfoot>
-            <tr>
-                <td>итог</td>
-                <td>130 000</td>
-                <td>2 300</td>
-            </tr>
-        </tfoot>
     </table>
 </body>
 </html>
