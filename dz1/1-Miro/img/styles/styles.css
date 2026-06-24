@@ -65,17 +65,3 @@ hero-form + p {
     font-size: 14px;
     line-height: 20px;
 }
-
-
-
-h2 {
-    color: #2c3e50;
-    font-size: 22px;
-    margin-bottom: 8px;
-}
-
-p {
-    color:red;
-    line-height: 1.5;
-    margin-bottom: 10px;
-}
